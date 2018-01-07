@@ -15,3 +15,7 @@ Routing gør det muligt at efterligne ”normale” hjemmesider, hvor du har ”
 CORS = Cross-Origin Resource Sharing. I moderne BROWSERE er det som standard ”forbudt” at lave AJAX kald, eller fx fetch, til andre steder en det samme origin. For at komme uden om dette, så skal fx et rest endpoint sende ACAO og ACOM header tilbage, som fortæller browseren, at det det helt i orden. ACAO = Access-Control-Allow-Origin = url eller *. ACOM = Access-Control-Allow-Methods: GET PUT POST DELETE…
 ### react-router-exam: ReactJS -> 5a & 5b
 ### react-router-endpoint: JPA -> 5b
+Dependencies for at JPA virker:
+mysql-connector-java, version 5.1.44, skrev det ind i hånden
+com.google.code.gson
+org.glassfish.jersey.bundles
