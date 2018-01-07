@@ -12,7 +12,7 @@ SPAs er når du dynamisk ændrer siden i stedet for at hente en helt ny side. De
 ### Explain about Components and Routing in React
 Routing gør det muligt at efterligne ”normale” hjemmesider, hvor du har ”links” til forskellige componenter. URL’en ændres også, så det er muligt at for brugeren at skrive lige en bestemt url ind og få en bestemt side/component.
 ### Explain the concept CORS, and why it is (often) relevant for Single Page Applications
-CORS = Cross-Origin Resource Sharing. I moderne BROWSERE er det som standard ”forbudt” at lave AJAX kald, eller fx fetch, til andre steder en det samme origin. For at komme uden om dette, så skal fx et rest endpoint sende ACAO og ACOM header tilbage, som fortæller browseren, at det det helt i orden. ACAO = Access-Control-Allow-Origin = url eller *. ACOM = Access-Control-Allow-Methods: GET PUT POST DELETE…
+CORS = Cross-Origin Resource Sharing. I moderne BROWSERE er det som standard ”forbudt” at lave AJAX kald, eller fx fetch, til andre steder en det samme origin. For at komme uden om dette, så skal fx et rest endpoint sende ACAO og ACOM header tilbage, som fortæller browseren, at det det helt i orden. ACAO = Access-Control-Allow-Origin = url eller *. ACAM = Access-Control-Allow-Methods: GET PUT POST DELETE…
 ### react-router-exam: ReactJS -> 5a & 5b
 ### react-router-endpoint: JPA -> 5b
 Dependencies for at JPA virker:<br>
