@@ -16,6 +16,6 @@ CORS = Cross-Origin Resource Sharing. I moderne BROWSERE er det som standard ”
 ### react-router-exam: ReactJS -> 5a & 5b
 ### react-router-endpoint: JPA -> 5b
 Dependencies for at JPA virker:
-mysql-connector-java, version 5.1.44, skrev det ind i hånden
-com.google.code.gson
+mysql-connector-java, version 5.1.44, skrev det ind i hånden<br>
+com.google.code.gson<br>
 org.glassfish.jersey.bundles
