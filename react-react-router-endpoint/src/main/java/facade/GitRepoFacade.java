@@ -29,6 +29,7 @@ public class GitRepoFacade {
             return q.getResultList();
         } finally
         {
+            em.close();
         }
 
     }
